@@ -1,14 +1,14 @@
 # Mass Data Tools
 
-This repository contains Python scripts for mass data manipulations. These tools allow you to perform batch operations on files within a specified folder, such as renaming multiple files with an index or resizing a batch of images.
+The goal for this project is to grow a library of python scripts useful to anyone working with large datasets. The vision is for it to be a collection(hopefully organized👀) of useful python scripts
 
-## 1. File Renamer with Index
+## 1. File Renamer with Index 📂
 
 ### Description
 
 The `rename_files.py` script renames all files in a specified folder with a given base name and appends an index to each filename. This is useful for quickly organizing and numbering a large number of files.
 
-### Usage
+### Usage 💡
 
 ```shell
 python rename_files.py /path/to/folder new_name
@@ -24,13 +24,13 @@ python rename_files.py /my_folder documents
 
 This command will rename files in the specified folder to `documents_1`, `documents_2`, and so on.
 
-## 2. Image Resizer
+## 2. Image Resizer 🖼️
 
 ### Description
 
 The `resize_images.py` script uses the Pillow (PIL) library to rescale all images in a folder to the desired width and height. It's helpful for resizing a batch of images to a consistent size.
 
-### Usage
+### Usage 💡
 
 ```shell
 python resize_images.py /path/to/folder output_folder width height
@@ -48,10 +48,10 @@ python resize_images.py /image_folder /output_folder 800 600
 
 This command will resize images in the specified folder to 800x600 pixels and save the resized images in the output folder.
 
-## Contributing
+## Contributing 🚀
 
 Feel free to contribute to this repository by adding more mass data manipulation tools or improving existing scripts. Create a pull request to share your enhancements with the community.
 
-## License
+## License 📜
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
